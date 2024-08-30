@@ -32,6 +32,7 @@ public class Level1 extends javax.swing.JFrame {
             cardButtons4, cardButtons5, cardButtons6,
             cardButtons7, cardButtons8, cardButtons9,
             cardButtons10
+                
         };
 
         cardImages = new ImageIcon[]{
@@ -75,6 +76,7 @@ public class Level1 extends javax.swing.JFrame {
         ArrayList<Integer> indices = new ArrayList<>(); // ArrayList to hold card indices (cards)
         for (int i = 0; i < cardButtons.length; i++) {
             indices.add(i); // Add indices to the list
+            
         }
 
         Collections.shuffle(indices); // card shuffler formula 
